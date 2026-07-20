@@ -1,0 +1,51 @@
+title: "我的 AI 学习日志"
+description: >-
+  AI Agent、LLM 与工程实践的学习成长档案。
+url: "https://jefferyho.github.io"
+baseurl: ""
+repository: "JefferyHo/JefferyHo.github.io"
+locale: "zh-CN"
+timezone: Asia/Shanghai
+
+theme: "minimal-mistakes-jekyll"
+
+minimal_mistakes_skin: "air"
+search: true
+breadcrumbs: true
+words_per_minute: 220
+
+author:
+  name: "Jeffery Ho"
+  bio: "持续学习 AI Agent、LLM 与软件工程。"
+
+include:
+  - _pages
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: false
+      share: true
+      related: true
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-include-cache
+
+footer:
+  links: []
+
+sass:
+  style: compressed
