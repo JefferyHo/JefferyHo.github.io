@@ -7,7 +7,7 @@ repository: "JefferyHo/JefferyHo.github.io"
 locale: "zh-CN"
 timezone: Asia/Shanghai
 
-theme: "minimal-mistakes-jekyll"
+remote_theme: "mmistakes/minimal-mistakes"
 
 minimal_mistakes_skin: "air"
 search: true
@@ -43,6 +43,7 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-include-cache
+  - jekyll-remote-theme
 
 footer:
   links: []
